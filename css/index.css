@@ -22,7 +22,7 @@ header  {
     width: 25%;
 }
 
-#logo_pc, header nav {
+#logo_pc, #pc_nav {
     display: none;
 }
 
@@ -36,6 +36,10 @@ nav a:hover {
 }
 
 footer {
+
+}
+
+#mobile_nav {
     margin: 5% 0;
     background-color: aqua;
 }
