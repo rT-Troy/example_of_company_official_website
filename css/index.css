@@ -7,27 +7,25 @@ body {
     height: 100%;
 }
 
-header {
+header, footer nav {
     background-color: orange;
     height: 5%;
     width: 100%;
+    font-size: 18px;
 }
 
-header figure {
+header  {
     text-align: center;
 }
 #logo_mobile {
-
     height: 25%;
     width: 25%;
 }
-header nav, #logo_pc {
+
+#logo_pc, header nav {
     display: none;
 }
 
-nav a {
-    padding-right: 2%;
-}
 
 nav a:link { color: purple; }
 
@@ -37,15 +35,15 @@ nav a:hover {
     color: greenyellow;
 }
 
+footer {
+    margin: 5% 0;
+    background-color: aqua;
+}
 
 @media screen and (min-width: 768px) {
-    body {
-        width: 80%;
-        padding: 0 10%;
-    }
 
     header figure {
-        float: left;
+
     }
 
     #logo_mobile {
@@ -57,17 +55,35 @@ nav a:hover {
         height: 30%;
         width: 30%;
     }
+
     header nav {
         display: block;
-        float: right;
     }
 
-    nav ul li {
+    #pc_nav ul li {
         display: inline;
-        font-size: 30px;
-
+        font-size: 25px;
+        font-family: "Lucida Handwriting", Papyrus, serif;
     }
+
     .clear {
         clear:both;
+    }
+
+    #logo_pc {
+        float: left;
+    }
+
+    #pc_nav {
+        padding-top: 1em;
+    }
+
+    #pc_nav li {
+        display: inline;
+        padding-right: 3px;
+    }
+
+    #mobile_nav {
+        display: none;
     }
 }

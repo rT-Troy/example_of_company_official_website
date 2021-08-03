@@ -1,0 +1,19 @@
+.service div {
+    float: left;
+    background-color: white;
+    margin: 3% 0;
+    height: auto;
+    border: greenyellow 2px dotted;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.clear {
+    clear:both;
+}
+
+.service img {
+    width: 20%;
+    height: 20%;
+}
+
