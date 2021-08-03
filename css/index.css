@@ -1,0 +1,73 @@
+html{
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: orange;
+    height: 5%;
+    width: 100%;
+}
+
+header figure {
+    text-align: center;
+}
+#logo_mobile {
+
+    height: 25%;
+    width: 25%;
+}
+header nav, #logo_pc {
+    display: none;
+}
+
+nav a {
+    padding-right: 2%;
+}
+
+nav a:link { color: purple; }
+
+nav a:visited { color: purple; }
+
+nav a:hover {
+    color: greenyellow;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    header figure {
+        float: left;
+    }
+
+    #logo_mobile {
+        display: none;
+    }
+
+    #logo_pc {
+        display: block;
+        height: 30%;
+        width: 30%;
+    }
+    header nav {
+        display: block;
+        float: right;
+    }
+
+    nav ul li {
+        display: inline;
+        font-size: 30px;
+
+    }
+    .clear {
+        clear:both;
+    }
+}
