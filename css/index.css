@@ -35,9 +35,7 @@ nav a:hover {
     color: greenyellow;
 }
 
-footer {
 
-}
 
 #mobile_nav {
     margin: 5% 0;
@@ -45,10 +43,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
-    header figure {
-
-    }
 
     #logo_mobile {
         display: none;
@@ -80,6 +74,7 @@ footer {
 
     #pc_nav {
         padding-top: 1em;
+        display: block;
     }
 
     #pc_nav li {
