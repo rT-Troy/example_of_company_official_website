@@ -2,8 +2,13 @@ html{
     font-size: 16px;
 }
 
+body {
+    margin: 0;
+    background-image: url("../img/background.png");
+}
+
 header, footer nav {
-    background-color: #65e8af;
+    border-bottom: gray 1px dotted;
     height: 5%;
     width: 100%;
     font-size: 18px;
@@ -12,6 +17,7 @@ header, footer nav {
 header  {
     text-align: center;
 }
+
 #logo_mobile {
     height: 25%;
     width: 25%;
@@ -19,6 +25,13 @@ header  {
 
 #logo_pc, #pc_nav {
     display: none;
+}
+
+#nav_leader {
+    width: 10%;
+    position: absolute;
+    top: 8px;
+    right: 8px;
 }
 
 
@@ -30,16 +43,19 @@ nav a:hover {
     color: greenyellow;
 }
 
-
-
 #mobile_nav {
-    margin: 5% 0;
     background-color: aqua;
+    font-size: 10px;
+}
+
+#copyright {
+    font-size: 10px;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
 
-    #logo_mobile {
+    #logo_mobile, #nav_leader {
         display: none;
     }
 

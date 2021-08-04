@@ -1,3 +1,7 @@
+/* The home img */
+
+
+/* The service list */
 #service_list {
     background-color: antiquewhite;
     padding: 0 2em;
@@ -13,7 +17,7 @@
     background-color: white;
     margin: 1% 1%;
     height: 15%;
-    width: 15%;
+    width: 17%;
     border: greenyellow 3px dotted;
     padding-top: 2%;
 }
@@ -21,6 +25,8 @@
 .service img {
     height: 20px;
 }
+
+
 
 
 
