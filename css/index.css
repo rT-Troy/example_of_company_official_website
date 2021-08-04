@@ -1,6 +1,8 @@
+
+/*-----------------Mobile view (first)----------------------*/
 html{
     font-size: 16px;
-    color: gray;
+    color: rgba(0, 0, 0, 0.83);
 }
 
 body {
@@ -42,6 +44,7 @@ header  {
     font-weight: bold;
     font-style: oblique;
     color: cornflowerblue;
+    text-shadow: 3px 3px 3px #4ed021;
 }
 
 
@@ -58,11 +61,16 @@ nav a:hover {
     font-size: 10px;
 }
 
+#mobile_nav li {
+    display: inline;
+    text-align: center;
+}
+
 #copyright {
     font-size: 10px;
     text-align: center;
 }
-
+/*-----------------PC view----------------------*/
 @media screen and (min-width: 768px) {
 
     #logo_mobile, #nav_leader {

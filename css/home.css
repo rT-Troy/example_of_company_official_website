@@ -23,10 +23,16 @@
     width: 20%;
     border: #65e8af 2px dotted;
     padding-top: 3%;
+    border-radius: 10px;
+}
+
+.coopartner_pic {
+    border-radius: 15px;
 }
 
 .service img {
     height: 20px;
+
 }
 .service p {
     text-align: center;
@@ -36,13 +42,12 @@
 
 #cooperation_partner {
     text-align: center;
-
 }
 
 
 #coopartner_mobile img {
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     height: 80px;
     margin-bottom: 20px;
 

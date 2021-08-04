@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 	<meta name="author" content="Jun Zhang">
@@ -8,37 +9,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/home.css">
+	<script src="js/home.js"></script>
     <title>Yo! Troy</title>
 </head>
+
 <body>
-    <header>
-	    <figure>
-		    <img id="logo_mobile" src="img/Logo_mobile.png" alt="Logo_mobile">
-		    <img id="logo_pc" src="img/Logo_PC.png" alt="Logo_PC">
-	    </figure>
+<div id="home_wraper">
+	<!-- Header -->
+	<header>
+		<figure>
+			<img id="logo_mobile" src="img/Logo_mobile.png" alt="Logo_mobile">
+			<img id="logo_pc" src="img/Logo_PC.png" alt="Logo_PC">
+		</figure>
 		<div>
 			<a href="#mobile_nav"><img id="nav_leader" src="img/nav_logo.png" alt="nav logo"></a>
 		</div>
-	    <nav id="pc_nav">
-		    <ul>
-			    <li><a href="#">Home</a></li>
-			    <li><a href="team.html">Team</a></li>
-			    <li><a href="news.html">News</a></li>
-			    <li><a href="game.html">Game</a></li>
-			    <li><a href="contact.html">Contact</a></li>
-			    <li><a href="accessibility.html">Accessibility</a></li>
-		    </ul>
-	    </nav>
-	    <div class="clear"></div>
-    </header>
-    
-
-
+		<!-- Navigation for PC -->
+		<nav id="pc_nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="team.html">Team</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="game.html">Game</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="accessibility.html">Accessibility</a></li>
+			</ul>
+		</nav>
+		<div class="clear"></div>
+	</header>
+	<!-- Body1-Service list -->
 	<div id="service_list">
 		<div id="services">
 			<h3 class="content_header">What can we do for your program?</h3>
 			<div class="service">
-
 				<img src="img/services/service1.png" alt="Web development"> <br/>
 				<p>Web</p>
 			</div>
@@ -56,19 +59,20 @@
 			</div>
 		</div>
 	</div>
-
+	<!-- Body-Co-operation partner pictures -->
 	<div id="cooperation_partner">
 		<h3 class="content_header">Co-operation Partner</h3>
 			<div id="coopartner_mobile">
-				<img src="img/coopartner/Partner_mobile1.png" alt="Partner mobile1">
-				<img src="img/coopartner/Partner_mobile2.png" alt="Partner mobile2">
-				<img src="img/coopartner/Partner_mobile3.png" alt="Partner mobile3">
-				<img src="img/coopartner/Partner_mobile4.png" alt="Partner mobile4">
-				<img src="img/coopartner/Partner_mobile5.png" alt="Partner mobile5">
+				<img class="coopartner_pic" src="img/coopartner/Partner_mobile1.png" alt="Partner mobile1">
+				<img class="coopartner_pic" src="img/coopartner/Partner_mobile2.png" alt="Partner mobile2">
+				<img class="coopartner_pic" src="img/coopartner/Partner_mobile3.png" alt="Partner mobile3">
+				<img class="coopartner_pic" src="img/coopartner/Partner_mobile4.png" alt="Partner mobile4">
+				<img class="coopartner_pic" src="img/coopartner/Partner_mobile5.png" alt="Partner mobile5">
 			</div>
 	</div>
 
     <footer>
+	    <!-- Navigation for mobile -->
 	    <nav id="mobile_nav">
 		    <ul>
 			    <li><a href="#">Home</a></li>
@@ -79,9 +83,11 @@
 			    <li><a href="accessibility.html">Accessibility</a></li>
 		    </ul>
 	    </nav>
+	    <!-- Copyright -->
 	    <nav id="copyright">
 		    <p>&copy; Web designed by Jun Zhang, 2021</p>
 	    </nav>
     </footer>
+</div>
 </body>
 </html>
