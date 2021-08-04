@@ -1,11 +1,9 @@
 #service_list {
     background-color: antiquewhite;
-    width: 90%;
-    height: 90%;
-    padding: 0 4%;
+    padding: 0 2em;
 }
 
-#two_row {
+#services {
     text-align: center;
 }
 
@@ -14,9 +12,14 @@
     text-align: center;
     background-color: white;
     margin: 1% 1%;
-    height: 30%;
-    border: greenyellow 2px dotted;
-    padding-top: 3%;
+    height: 15%;
+    width: 15%;
+    border: greenyellow 3px dotted;
+    padding-top: 2%;
+}
+
+.service img {
+    height: 20px;
 }
 
 
