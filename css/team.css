@@ -1,0 +1,12 @@
+.team_content {
+    width: 80%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 10%;
+    border-radius: 10px;
+    border: #65e8af 2px dashed;
+}
+
+#team_wrapper hr {
+    width: 60%;
+}

@@ -66,10 +66,18 @@ nav a:hover {
     text-align: center;
 }
 
+.declaration {
+    text-align: center;
+    font-size: 10px;
+    color: #989494;
+}
+
 #copyright {
     font-size: 10px;
     text-align: center;
 }
+
+
 /*-----------------PC view----------------------*/
 @media screen and (min-width: 768px) {
 
