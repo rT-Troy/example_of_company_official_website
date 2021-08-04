@@ -1,23 +1,26 @@
 #service_list {
     background-color: antiquewhite;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    padding: 0 4%;
+
+}
+#two_row {
+    text-align: center;
 }
 
 .service {
     display: inline-block;
     text-align: center;
     background-color: white;
-    margin: 3% 3%;
-    height: auto;
+    margin: 1% 1%;
+    height: 30%;
     border: greenyellow 2px dotted;
     padding-top: 3%;
 }
 
 
 
-.service img {
-    width: 18%;
-    height: 18%;
-}
+
+
 
