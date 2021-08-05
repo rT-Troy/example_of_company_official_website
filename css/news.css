@@ -9,14 +9,15 @@
     background-color: rgba(255, 255, 255, 0.5);
     margin: 10px 10%;
     border: #65e8af 2px dashed;
-    border-radius: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: cornflowerblue 15px 15px 15px;
 }
 
 .news_pic {
     height: 60%;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 40px;
     border-bottom: #65e8af 2px dashed;
 }
 

@@ -11,6 +11,26 @@
 /*-----------------PC views----------------------*/
 @media screen and (min-width: 768px) {
 
+    #contact_wrapper {
+        display: inline-flex;
+        flex-direction: row;
+    }
 
+    #text_wrapper {
+        background-color: rgba(255,255,255,0.5);
+        width: 48%;
+        height: 500px;
+        margin-right: 1%;
+        border-radius: 100px;
+    }
+
+
+    #form_wrapper {
+        background-color: rgba(255,255,255,0.5);
+        width: 48%;
+        height: 500px;
+        margin-left: 1%;
+        border-radius: 100px;
+    }
 
 }
