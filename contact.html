@@ -36,13 +36,59 @@
 		</nav>
 		<div class="clear"></div>
 	</header>
-	<!-- Body1 -->
 
-	<!-- Body2 -->
+	<nav id="contact_wrapper">
+
+		<!-- Body1-Company Info -->
+		<div class="contact_part_wrapper">
+			<h1 class="content_header">Company Info</h1>
+			<p>Name: Yo! Troy Software Outsourcing co., Ltd</p>
+			<p>Address: Barly House, Centa Street, Sheffield, South Yorkshire </p>
+			<p>Postal Code: 39RFL</p>
+		</div>
+
+		<!-- Body2-Contact Us -->
+		<div class="contact_part_wrapper">
+			<h1 class="content_header">Contact Us</h1>
+			<p>Mr. Bieber Parker</p>
+			<p>Number: +44 (0)7572394588</p>
+			<p>E-mail: jzhang213@sheffield.ac.uk</p>
+		</div>
+
+		<!-- Body3-Email Us -->
+		<div id="send_email_wrapper">
+			<h1 class="content_header">Email Us</h1>
+			<form name="send_email" action="mailto:jzhang213@sheffield.ac.uk?subject=Test Email"
+			      enctype="text/plain" method="post" onsubmit="alert('Email will open now...');" >
+
+				<p>
+					<label for="from">Your name:</label>&nbsp
+					<input type="text" name="from" id="from"
+					       maxlength="30" size="16" placeholder="type your name..."  required>
+				</p>
+
+				<p>
+					<label for="email">Your e-mail:</label>
+					<input type="email" name="email" id="email" placeholder="type your email..."
+					       maxlength="30" size="16" required>
+				</p>
+
+				<p>
+					<label for="comments">Your comments:</label><br/>
+					<textarea name="comments" id="comments" placeholder="type your comments..." rows="5" cols="30"></textarea>
+				</p>
+
+				<p>
+					<input type="submit" name="submit" id="submit" value="Submit">
+					<input type="reset">
+				</p>
+			</form>
+		</div>
+
+	</nav>
 
 	<!-- Footer -->
 	<footer>
-
 		<nav id="mobile_nav"><!-- Navigation for mobile -->
 			<ul>
 				<li><a href="index.html">Home</a></li>
