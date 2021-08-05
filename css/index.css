@@ -57,6 +57,7 @@ nav a:hover { color: greenyellow;}
 #mobile_nav {
     background-color: rgba(190, 176, 176, 0.5);
     font-size: 10px;
+    text-align: center;
 }
 
 #mobile_nav li {
@@ -80,7 +81,7 @@ nav a:hover { color: greenyellow;}
 }
 
 
-/*-----------------PC views----------------------*/
+/*-----PC views-----*/
 @media screen and (min-width: 768px) {
     /*-- Hide mobile views factor --*/
     #logo_mobile, #nav_leader {
@@ -92,6 +93,7 @@ nav a:hover { color: greenyellow;}
         height: 30%;
         width: 30%;
     }
+
     /*-- mobile nav shows at the top right of the page --*/
     header nav {
         display: block;

@@ -44,7 +44,7 @@
     height: 10%;
 }
 
-/*-----------------PC views----------------------*/
+/*-----PC views-----*/
 @media screen and (min-width: 768px) {
 
     .news_content_pic {

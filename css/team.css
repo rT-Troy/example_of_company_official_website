@@ -35,7 +35,7 @@
     text-align: center;
 }
 
-/*-----------------PC views----------------------*/
+/*-----PC views-----*/
 @media screen and (min-width: 768px) {
     .team_content {
         width: 80%;
