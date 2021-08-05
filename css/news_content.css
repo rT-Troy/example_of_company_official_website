@@ -36,5 +36,12 @@
 .news_header_wrapper p {
     font-size: 18px;
     color: gray;
+    width: 80%;
+    padding: 0 10%;
+}
+
+.back {
+    width: 10%;
+    height: 10%;
 }
 
