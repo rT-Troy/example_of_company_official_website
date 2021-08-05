@@ -5,7 +5,7 @@
 
 .news_wrapper {
     width: 80%;
-    height: 400px;
+    height: 420px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 10px 10%;
     border: #65e8af 2px dashed;
@@ -13,7 +13,7 @@
 }
 
 .news_pic {
-    height: 70%;
+    height: 60%;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -22,15 +22,23 @@
 
 .news_wrapper h2 {
     font-size: 15px;
-    color: #03123f;
+    color: #18a8d0;
     text-align: center;
-    font-family: "Gill Sans MT Ext Condensed Bold",fantasy;
+    font-family: "cursive",fantasy;
+    text-shadow: rgba(3, 63, 63, 0.32) 3px 3px 3px;
 }
 
-.news_wrapper p {
+.news_brief {
     color: gray;
-    height: 45px;
+    height: 65px;
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-all;
+    padding: 0 5px;
+}
+
+.suspension_points {
+    text-align: center;
+    color: gray;
+    margin-top: -10px;
 }
