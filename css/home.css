@@ -1,7 +1,4 @@
-/* The home img */
-
-
-/* The service list */
+/*-----Mobile views (first)-----*/
 #service_list {
 
     opacity: 0.8;
@@ -32,7 +29,7 @@
 
 .service img {
     height: 20px;
-
+    width: 20px;
 }
 .service p {
     text-align: center;
@@ -50,6 +47,11 @@
     background-color: rgba(255, 255, 255, 0.7);
     height: 80px;
     margin-bottom: 20px;
+
+}
+
+/*-----PC views-----*/
+@media screen and (min-width: 768px) {
 
 }
 
