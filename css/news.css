@@ -26,6 +26,10 @@
     text-align: center;
     font-family: "cursive",fantasy;
     text-shadow: rgba(3, 63, 63, 0.32) 3px 3px 3px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
 }
 
 .news_brief {
@@ -43,9 +47,27 @@
     margin-top: -10px;
 }
 
+.news_wrapper h2:link { color: purple; }
+
+.news_wrapper h2:visited { color: purple; }
+
+.news_wrapper h2:hover { color: #092170;}
+
 /*-----------------PC views----------------------*/
 @media screen and (min-width: 768px) {
 
+    .news_wrapper {
+        width: 50%;
+        margin: 20px 25%;
+        padding: 0 0;
+    }
 
+    .news_wrapper h2 {
+        font-size: 32px;
 
+    }
+
+    .news_brief {
+        height: 45px;
+    }
 }

@@ -47,6 +47,24 @@
 /*-----------------PC views----------------------*/
 @media screen and (min-width: 768px) {
 
+    .news_content_pic {
+        margin: 0 10%;
+        width: 80%;
+        height: auto;
+    }
 
+    .news_header_wrapper h1 {
+        font-size: 38px;
+    }
+
+    .news_header_wrapper p {
+        width: 60%;
+        padding: 0 20%;
+    }
+
+    .back {
+        width: 30px;
+        height: auto;
+    }
 
 }
