@@ -1,5 +1,4 @@
-
-
+/*-----Mobile views (first)-----*/
 .news_content_pic {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.15);
@@ -45,3 +44,9 @@
     height: 10%;
 }
 
+/*-----------------PC views----------------------*/
+@media screen and (min-width: 768px) {
+
+
+
+}

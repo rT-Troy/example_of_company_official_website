@@ -1,3 +1,4 @@
+/*-----Mobile views (first)-----*/
 .link_style {
     text-decoration:none;
 }
@@ -40,4 +41,11 @@
     text-align: center;
     color: gray;
     margin-top: -10px;
+}
+
+/*-----------------PC views----------------------*/
+@media screen and (min-width: 768px) {
+
+
+
 }

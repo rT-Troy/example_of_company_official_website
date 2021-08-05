@@ -1,3 +1,4 @@
+/*-----Mobile views (first)-----*/
 .team_content {
     width: 80%;
     height: 200px;
@@ -16,9 +17,10 @@
 
 }
 
-.founder_head h5 {
+.founder_head h1 {
     text-shadow: #e79d2e 3px 3px 3px;
     color: chocolate;
+    font-size: 20px;
 }
 
 .founder_head img {
@@ -33,3 +35,29 @@
     text-align: center;
 }
 
+/*-----------------PC views----------------------*/
+@media screen and (min-width: 768px) {
+    .team_content {
+        width: 80%;
+        height: 300px;
+    }
+    .founder_head h1 {
+        font-size: 32px;
+    }
+
+    .founder_head img {
+        width: 20%;
+        height: auto;
+        margin: 0 20px;
+    }
+
+    .founder_head p {
+        padding: 40px;
+        font-size: 26px;
+    }
+
+    /*---Reverse the position of the photo and text for founder2--*/
+    #team_content_flex_reverse {
+        float: right;
+    }
+}

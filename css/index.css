@@ -35,7 +35,7 @@ header  {
     right: 8px;
 }
 
-/*-- Template for content title --*/
+/*-- Template for content title in mobile views --*/
 .content_header {
     font-family: "Gill Sans Extrabold", sans-serif;
     text-align: center;
@@ -101,6 +101,11 @@ nav a:hover { color: greenyellow;}
         display: inline;
         font-size: 25px;
         font-family: "Lucida Handwriting", Papyrus, serif;
+    }
+
+    .content_header {
+        font-size: 36px;
+        text-shadow: 6px 6px 6px #4ed021;
     }
 
     .clear {

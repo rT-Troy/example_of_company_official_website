@@ -23,7 +23,7 @@
     border-radius: 10px;
 }
 
-.coopartner_pic {
+.coopartner_pic_mobile {
     border-radius: 15px;
 }
 
@@ -37,7 +37,7 @@
     text-transform: uppercase;
 }
 
-#cooperation_partner {
+#cooperation_partner_mobile {
     text-align: center;
 }
 
@@ -52,6 +52,17 @@
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
+
+    #cooperation_partner_mobile {
+        display: none;
+    }
+    #cooperation_partner_pc {
+        text-align: center;
+    }
+    #coopartner_pc img {
+        width: 250px;
+        height: 220px;
+    }
 
 }
 
