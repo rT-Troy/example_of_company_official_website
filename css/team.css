@@ -10,3 +10,26 @@
 #team_wrapper hr {
     width: 60%;
 }
+
+.founder_head {
+    text-align: center;
+
+}
+
+.founder_head h5 {
+    text-shadow: #e79d2e 3px 3px 3px;
+    color: chocolate;
+}
+
+.founder_head img {
+    width: 30%;
+    float: left;
+    border-radius: 100%;
+    border: cornflowerblue 2px solid;
+}
+
+.founder_head p {
+    color: gray;
+    text-align: center;
+}
+
