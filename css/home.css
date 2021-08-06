@@ -12,12 +12,10 @@
 
 .service {
     display: inline-block;
-    text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 1px;
     height: 15%;
     width: 20%;
-    border: #65e8af 2px dotted;
     padding-top: 3%;
     border-radius: 10px;
 }
@@ -39,7 +37,6 @@
 
 #cooperation_partner_mobile {
     text-align: center;
-    display: block;
 }
 
 #coopartner_mobile img {
@@ -55,7 +52,7 @@
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
-
+    /*--The style will change at width of 500px and above--*/
     #cooperation_partner_mobile {
         display: none;
     }

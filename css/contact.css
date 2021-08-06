@@ -10,7 +10,7 @@
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
-
+    /*--The style will change at width of 500px and above--*/
     #contact_wrapper {
         display: inline-flex;
         flex-direction: row;

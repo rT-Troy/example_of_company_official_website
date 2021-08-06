@@ -35,7 +35,7 @@
 .news_header_wrapper p {
     font-size: 18px;
     color: gray;
-    width: 80%;
+
     padding: 0 10%;
 }
 
@@ -46,11 +46,14 @@
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
-
+    /*--The style will change at width of 500px and above--*/
     .news_content_pic {
         margin: 0 10%;
         width: 80%;
-        height: auto;
+    }
+
+    .news_content_pic img {
+        height: 350px;
     }
 
     .news_header_wrapper h1 {

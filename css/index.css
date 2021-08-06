@@ -1,7 +1,6 @@
 /*-----Mobile views (first)-----*/
 html{
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.83);
 }
 
 body {
@@ -44,9 +43,10 @@ header  {
     text-align: center;
     color: cornflowerblue;
     text-shadow: 3px 3px 3px #4ed021;
+    text-transform: uppercase;
 }
 
-/*-- PC Navigation style --*/
+/*-- Navigation style --*/
 nav a:link { color: purple; }
 
 nav a:visited { color: purple; }
@@ -83,6 +83,7 @@ nav a:hover { color: greenyellow;}
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
+    /*--The style will change at width of 500px and above--*/
     /*-- Hide mobile views factor --*/
     #logo_mobile, #nav_leader {
         display: none;
@@ -108,10 +109,6 @@ nav a:hover { color: greenyellow;}
     .content_header {
         font-size: 36px;
         text-shadow: 6px 6px 6px #4ed021;
-    }
-
-    .clear {
-        clear:both;
     }
 
     #logo_pc {

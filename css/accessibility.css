@@ -1,9 +1,26 @@
 /*-----Mobile views (first)-----*/
+#acc_wrapper {
+    background-color: rgba(255,255,255,0.5);
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+    color: gray;
+    padding: 20px 0;
+    border-radius: 20px;
+}
 
+#acc_wrapper dl dt {
+    font-size: 20px;
+    color: #012c2c;
+    font-style: oblique;
+}
 
 /*-----PC views-----*/
 @media screen and (min-width: 768px) {
-
-
+    /*--The style will change at width of 500px and above--*/
+    #acc_wrapper {
+        width: 50%;
+        margin: 0 25%;
+    }
 
 }
