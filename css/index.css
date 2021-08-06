@@ -56,15 +56,25 @@ nav a:hover { color: greenyellow;}
 /*-- mobile nav shows at the bottom of the page --*/
 #mobile_nav {
     background-color: rgba(190, 176, 176, 0.5);
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     font-family: "Gill Sans Extrabold", sans-serif;
     text-decoration: none;
 }
 
+#mobile_nav ul {
+    margin-left: -40px;
+}
+
 #mobile_nav li {
     display: inline;
     text-align: center;
+    padding-left: 0;
+}
+
+#mobile_nav a {
+    text-align: center;
+    text-decoration: none;
 }
 
 .declaration {
@@ -105,6 +115,7 @@ nav a:hover { color: greenyellow;}
     #pc_nav ul li {
         display: inline;
         font-size: 25px;
+        padding-right: 10px;
         font-family: "Lucida Handwriting", Papyrus, serif;
     }
 
@@ -122,9 +133,8 @@ nav a:hover { color: greenyellow;}
         display: block;
     }
 
-    #pc_nav li {
-        display: inline;
-        padding-right: 3px;
+    #pc_nav a {
+        text-decoration: none;
     }
 
     #mobile_nav {
