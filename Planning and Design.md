@@ -2,7 +2,7 @@
 ### ***Jun Zhang***
 
 #### Introduction
-This web program is design by html, CSS, JavaScript and Canvas which using ‘Mobile First Responsive Web Design’. Which is a official website of a Software Outsourcing Company named ‘Yo! Troy’.
+This web program is design by html, CSS, JavaScript and Canvas which using ‘Mobile First Responsive Web Design’. Which is an official website of a Software Outsourcing Company named ‘Yo! Troy’.
 
 #### General ethos
 An outsourcing company is a company that undertakes third-party software design and development services. This topic is closely related to computer science. And that kind of companies really need a website online to get more orders and be famous.
@@ -19,13 +19,13 @@ User is able to navigate through a screen reader that see the value of each attr
 ##### High efficiency
 Optimized the website loading speed and supports low-configuration devices.
 
-Consider to provide screen magnifiers for low vision people, and the similar function like control text size. Supporting night mode for benefit reading in the night. 
+Consider providing screen magnifiers for low vision people, and the similar function like control text size. Supporting night mode for benefit reading in the night. 
 
 #### Legal issues
 The trademarks or pictures involved in the website are from the license-free website or original, and follow the Attribution 4.0 International (CC BY 4.0).  Some Information from this website is fictitious, all similarities are coincidences.
 #### Design mock-ups
 ##### Basic Structure
-The views of header and footer in PC or mobile are fixed, so the basic structure will be quote into most pages with different content. The picture will show below.
+The views of header and footer in PC or mobile are fixed, so the basic structure will be quoted into most pages with different content. The picture will show below.
 
 *Mobile*:	The company logo and name will be the top center and in center-view which is different with PC. And the copyright will be the button center by one sentence.
 
