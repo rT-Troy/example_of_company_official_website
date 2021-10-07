@@ -1,5 +1,4 @@
 ## Planning & Design
-### ***Jun Zhang***
 
 #### Introduction
 This web program is design by html, CSS, JavaScript and Canvas which using ‘Mobile First Responsive Web Design’. Which is an official website of a Software Outsourcing Company named ‘Yo! Troy’.
@@ -57,7 +56,6 @@ Use toggle navigation to link pages in mobile view, it saves space for mobile sc
 
 
 ## Development & Testing
-### ***Jun Zhang***
 
 #### Changes
 ##### Change of Basic Structure
